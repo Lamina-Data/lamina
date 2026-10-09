@@ -1,0 +1,11 @@
+[package]
+name = "lamina-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "1"
+hex = { version = "0.4", default-features = false }
+
+[dev-dependencies]
+proptest = "1"
