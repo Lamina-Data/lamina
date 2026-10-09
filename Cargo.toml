@@ -1,0 +1,16 @@
+#[package]
+#name = "lamina"
+#version = "0.1.0"
+#edition = "2024"
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/lamina-checker",
+    "crates/lamina-core",
+    "crates/lamina-ingest",
+    "crates/lamina-proxy",
+    "crates/lamina-store"
+]
+
+#[dependencies]
